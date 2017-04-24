@@ -1,0 +1,10 @@
+#AddType text/html .shtml .shtm .htm .html
+#AddHandler server-parsed .shtml .shtm .htm .html 
+#Options Indexes FollowSymLinks Includes
+# Uncomment the version of PHP you have on your server
+# Only one of the following  can be uncommented
+#AddHandler application/x-httpd-php56 .shtml
+#AddHandler application/x-httpd-php52 .shtml
+#AddHandler application/x-httpd-php54 .shtml
+#AddHandler application/x-httpd-php4 .shtml
+#AddType application/x-httpd-php text/html
